@@ -1,0 +1,36 @@
+
+target ‘DaiShuYangLao’ do
+
+platform :ios, ‘9.0’ 
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+pod 'MBProgressHUD'
+pod 'SDWebImage'
+pod 'SDWebImage/GIF'
+pod 'AFNetworking'
+pod 'FMDB'
+pod 'Masonry'
+pod 'MJRefresh’
+pod 'MJExtension'
+pod 'SDCycleScrollView'
+pod 'RTRootNavigationController'
+pod 'YYText'
+pod 'DZNEmptyDataSet'
+pod 'IQKeyboardManager' #iOS8 and late
+pod 'WMPageController', '~> 2.4.0' 
+pod 'WechatOpenSDK'
+pod 'YYImage'
+pod 'YYCache'
+#pod 'XHWebImageAutoSize'
+pod 'UMCCommon'
+pod 'UMCSecurityPlugins'
+pod 'UMCShare/Social/ReducedSina'
+pod 'UMCShare/Social/ReducedWeChat'
+pod 'UMCCommonLog'
+pod 'UMCAnalytics'
+pod 'UMCShare/UI'
+pod 'UMCShare/Social/ReducedQQ'
+pod 'ZXingObjC'
+
+end
